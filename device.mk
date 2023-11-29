@@ -335,7 +335,8 @@ PRODUCT_PACKAGES += \
     libnbaio \
     libcodec2_soft_common.vendor \
     libcodec2_vndk.vendor \
-    libsfplugin_ccodec_utils.vendor
+    libsfplugin_ccodec_utils.vendor \
+    libstagefright_foundation-v33
 
 # OMX
 PRODUCT_PACKAGES += \
