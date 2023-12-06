@@ -226,6 +226,9 @@ on property:sys.boot_completed=1
     #Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
+    swapon_all /vendor/etc/fstab.zram
+    write /proc/sys/vm/swappiness 100
+
 # DSDS - Restart qcrild on data switch
 on property:persist.sys.radio.mobile_data_swap=1
     exec /bin/sleep 3s
