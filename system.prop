@@ -67,8 +67,11 @@ ro.fm.transmitter=false
 vendor.hw.fm.init=0
 
 # LMKD/PSI
-ro.lmk.critical_upgrade=true
 ro.lmk.kill_heaviest_task=true
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.downgrade_pressure=30
 
 # Media
 av.debug.disable.pers.cache=1
