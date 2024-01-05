@@ -267,7 +267,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     ims-ext-common \
-    ims_ext_common.xml
+    ims_ext_common.xml \
+    libgui_shim:64
 
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
