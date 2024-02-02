@@ -146,7 +146,7 @@ vendor.service.qti.ims.enabled=1
 ro.telephony.default_network=20,20
 
 # Watchdog
-ro.hw_timeout_multiplier=3
+ro.hw_timeout_multiplier=12
 
 # WiFi
 persist.mm.sta.enable=0
