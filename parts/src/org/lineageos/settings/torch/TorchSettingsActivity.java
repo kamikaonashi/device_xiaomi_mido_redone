@@ -21,7 +21,6 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.widget.R;
 
 public class TorchSettingsActivity extends CollapsingToolbarBaseActivity {
 
@@ -31,9 +30,9 @@ public class TorchSettingsActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction()
-            .replace(R.id.content_frame,  new TorchSettings())
-            .commit();
+        getFragmentManager().beginTransaction().replace(
+                com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+                new TorchSettings()) .commit();
     }
 
     @Override
