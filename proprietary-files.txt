@@ -887,6 +887,9 @@ vendor/lib64/libdisp-aba.so|4d364bb0699346a1fa57b9033f28d2a25c80ec0c
 vendor/lib64/vendor.display.color@1.0.so|f80b69b96c3ff6a1eb865740de95f67c67be785a
 vendor/lib64/vendor.display.postproc@1.0.so|8ec8b1c4764eda08ed1154f3487ef0a8f0ad5345
 
+# Graphics (shared dep) - from vendor/lib64
+system_ext/lib64/libqdMetaData.so|84d8e6706a8825f414f364b9bee67331ace8946b
+
 # Graphics - SDM - from FP3-REL-6.A.028.1-gms-fb581341-user
 vendor/lib/libscalar.so|c78e4b32170501fd85daa8804aaa54afbcb40dd2
 vendor/lib/libsdm-color.so|6384a5eef8062889cf9e34e6eea0026fbfca44e9
