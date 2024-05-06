@@ -181,13 +181,11 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     gralloc.msm8953 \
     hwcomposer.msm8953 \
-    libgralloc.system.qti \
-    libqdMetaData.system \
+    libqdMetaData \
     libtinyxml \
     libvulkan \
     memtrack.msm8953 \
-    vendor.display.config@1.0.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor
+    vendor.display.config@1.0.vendor
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
@@ -208,7 +206,7 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm-V1-ndk.vendor
 
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/configs/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml
