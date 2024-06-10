@@ -117,6 +117,7 @@ ro.soc.model=SDM450
 net.tcp.2g_init_rwnd=10
 
 # USB
+ro.usb.uvc.enabled=true
 vendor.usb.controller=7000000.dwc3
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=1
