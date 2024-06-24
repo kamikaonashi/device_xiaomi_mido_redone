@@ -199,3 +199,7 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
     user system
     group system
     disabled
+
+# USB
+on property:ro.product.vendor.model=*
+    setprop vendor.usb.product_string ${ro.product.vendor.model}
