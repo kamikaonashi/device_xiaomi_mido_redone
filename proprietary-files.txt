@@ -849,9 +849,9 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c
 
 # Graphics - from FP3-REL-6.A.028.1-gms-fb581341-user
 vendor/lib/egl/eglSubDriverAndroid.so|72f727554575728006e8ac05b0ad714481259690
-vendor/lib/egl/libEGL_adreno.so|b27eabcb8a90912d915f2fa3061116642e16d300
+vendor/lib/egl/libEGL_adreno.so|b27eabcb8a90912d915f2fa3061116642e16d300;SYMLINK=vendor/lib/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so|d7afdc835b962b30580eec884ede914a869ef9bc
-vendor/lib/egl/libGLESv2_adreno.so|fddfa911dd52c69c6c7b60f553c0795138696bd8
+vendor/lib/egl/libGLESv2_adreno.so|fddfa911dd52c69c6c7b60f553c0795138696bd8;SYMLINK=vendor/lib/libGLESv2_adreno.so
 vendor/lib/libC2D2.so|78a61602407f15874b23214c58faab2cb4ccf928
 vendor/lib/libCB.so|d6dd4d7529d05ac102b936965be3e59d87f7d7d5
 vendor/lib/libOpenCL.so|065575c14a735bff3ce30a266d8b622008b3c465
@@ -864,9 +864,9 @@ vendor/lib/libllvm-glnext.so|b5f653aa2c9e1ea25c30f84cf8875fa6cb3d94ee
 vendor/lib/libmm-hdcpmgr.so|4364ca206f8d7ffd87d6f552e4760196de62ad7b
 vendor/lib/librs_adreno.so|227edc6fa4e16599d92d3c202112c6021d354a54
 vendor/lib64/egl/eglSubDriverAndroid.so|d6dc70f08a0e68e897c2c8a956a8c2f3e036c540
-vendor/lib64/egl/libEGL_adreno.so|ca0184f73e4894a58cf1a53da9e025ddad9eb74d
+vendor/lib64/egl/libEGL_adreno.so|ca0184f73e4894a58cf1a53da9e025ddad9eb74d;SYMLINK=vendor/lib64/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so|b45486353fceb47ec419ef580fdf6d2305a842ff
-vendor/lib64/egl/libGLESv2_adreno.so|86d80c7f17b43d6f11e8731bd4fa481b2da31e0e
+vendor/lib64/egl/libGLESv2_adreno.so|86d80c7f17b43d6f11e8731bd4fa481b2da31e0e;SYMLINK=vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
 vendor/lib64/libCB.so|f4ee960e0169cd72082c18df22d90c2b04b47355
 vendor/lib64/libOpenCL.so|d49daef4801942017b90faf2183f0643fca49ce7
