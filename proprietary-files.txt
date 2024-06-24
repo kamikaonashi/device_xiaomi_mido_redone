@@ -1169,7 +1169,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|62cd64dbb25d082cfdc742fb03931ba0f9a
 
 # Radio (IMS VT) - from FP3-REL-6.A.028.1-gms-fb581341-user
 system_ext/lib64/lib-imscamera.so|8170256dbf9120ff05f193ba937c718d9c580881
-system_ext/lib64/libimsmedia_jni.so|b90664b4ce069358f36801da5ceac10baf4ebcc6
+system_ext/lib64/libimsmedia_jni.so|b90664b4ce069358f36801da5ceac10baf4ebcc6;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 system_ext/lib64/lib-imsvtextutils.so|1acf1de305e455a3a924483e5652b37133d10fd1
 system_ext/lib64/lib-imsvt.so|0b2065c9b500a11d39aa49f32dd06267e083fabb
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
@@ -1187,7 +1187,7 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|fa120eaa7807ff43f3974a
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 system_ext/lib64/lib-imsvideocodec.so|16847df7bee00fead218a2b482b49bb38fdfb6c6
 system_ext/lib64/lib-imsvtutils.so|dfc5cf0854fe38c191a53ec3bd2a322d05d85567
-system_ext/lib64/libimscamera_jni.so|114876ec8ba85965a69694a7edc0e555fe099061
+system_ext/lib64/libimscamera_jni.so|114876ec8ba85965a69694a7edc0e555fe099061;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 
 # Sensors - from FP3-REL-6.A.028.1-gms-fb581341-user
 vendor/bin/sensors.qti|cba682ce9a06fd2e1fbc3e3d63f9df524252b34d
