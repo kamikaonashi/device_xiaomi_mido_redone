@@ -117,10 +117,11 @@ ro.soc.model=SDM450
 net.tcp.2g_init_rwnd=10
 
 # USB
+vendor.usb.controller=7000000.dwc3
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=1
 sys.usb.mtp.batchcancel=1
-vendor.usb.use_gadget_hal=0
+vendor.usb.use_gadget_hal=1
 
 # Wifi
 wifi.interface=wlan0
