@@ -424,6 +424,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service \
+    libpower.vendor \
     libsensorndkbridge:64
     
 # Speed profile services and wifi-service to reduce RAM and storage
