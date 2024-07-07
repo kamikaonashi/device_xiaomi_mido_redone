@@ -862,7 +862,6 @@ vendor/lib/libgsl.so|6377c09442221afa58e53468a203fe3ea7e5f5eb
 vendor/lib/libhdr_tm.so|04d3cc1e1c0f9b85ccbee1c86c913665d2fe02f2
 vendor/lib/libllvm-glnext.so|b5f653aa2c9e1ea25c30f84cf8875fa6cb3d94ee
 vendor/lib/libmm-hdcpmgr.so|4364ca206f8d7ffd87d6f552e4760196de62ad7b
-vendor/lib/librs_adreno.so|227edc6fa4e16599d92d3c202112c6021d354a54
 vendor/lib64/egl/eglSubDriverAndroid.so|d6dc70f08a0e68e897c2c8a956a8c2f3e036c540
 vendor/lib64/egl/libEGL_adreno.so|ca0184f73e4894a58cf1a53da9e025ddad9eb74d;SYMLINK=vendor/lib64/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so|b45486353fceb47ec419ef580fdf6d2305a842ff
@@ -877,7 +876,6 @@ vendor/lib64/libgsl.so|4328c6da13f53efb538c13b5e67310bbb07e2a29
 vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
 vendor/lib64/libllvm-glnext.so|8b96ab94cd535c163d0548a5802fae9af4930fb7
 vendor/lib64/libmm-hdcpmgr.so|faf9491a8b15b9ca98a71e216ed94a61eca87540
-vendor/lib64/librs_adreno.so|bf87696c917d75da5557c194098faaae5e303a0b
 
 # Graphics - Postprocessing - from FP3-REL-6.A.028.1-gms-fb581341-user
 vendor/bin/hw/vendor.display.color@1.0-service|815cc36f3722fbfb5fdd52f6678309d207888038
