@@ -228,7 +228,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_mido \
     fakelogprint \
     liblzma.vendor:64 \
     libshims_gxfpd
