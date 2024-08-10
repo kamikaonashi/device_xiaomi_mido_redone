@@ -173,6 +173,10 @@ on boot
 # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
+# Fast Charge
+    chown system system /sys/class/power_supply/battery/restricted_charging
+    chmod 0664 /sys/class/power_supply/battery/restricted_charging
+
 #USB controller configuration
     write /sys/module/g_android/parameters/mtp_tx_req_len 131072
     write /sys/module/g_android/parameters/mtp_rx_req_len 131072
