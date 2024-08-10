@@ -112,6 +112,7 @@ persist.vendor.ims.disableDebugDataPathLogs=1
 persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableSigHandler=1
 persist.vendor.ims.disableQXDMLogs=1
+persist.sys.radio.force_lte_ca = true
 
 # Recovery
 persist.vendor.recovery_update=false
