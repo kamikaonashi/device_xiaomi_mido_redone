@@ -21,6 +21,10 @@ persist.partial.skip            u:object_r:camera_prop:s0
 persist.vendor.camera.  u:object_r:camera_prop:s0
 ro.camera.         u:object_r:camera_prop:s0
 
+# Audio (Dirac)
+audio.dirac.                    u:object_r:vendor_dirac_prop:s0
+persist.audio.dirac             u:object_r:vendor_dirac_prop:s0
+
 # Fastcharge HAL
 persist.vendor.sec.fastchg_enabled              u:object_r:vendor_fastcharge_prop:s0
 
