@@ -387,7 +387,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.usb.rc \
     init.parts.rc \
     init.target.rc \
-    init.uclamp.rc \
     ueventd.qcom.rc
 
 # RemovePackages
