@@ -183,6 +183,11 @@ on post-fs-data
     # Create dir for TUI
     mkdir /data/vendor/tui 0700 system drmrpc
 
+    start vendor.qcrild
+    start vendor.qcrild2
+    start vendor.dataqti
+    start vendor.dataadpl
+
     # Mark the copy complete flag to not completed
     write /data/vendor/radio/copy_complete 0
     chown radio radio /data/vendor/radio/copy_complete
@@ -239,12 +244,6 @@ on property:hw.fm.init=0
 
 on property:hw.fm.init=1
     write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
-
-service qcom-c_main-sh /vendor/bin/init.class_main.sh
-    class main
-    user root
-    group root system
-    oneshot
 
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     class core
