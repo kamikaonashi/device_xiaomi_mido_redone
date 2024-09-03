@@ -190,16 +190,11 @@ service ppd /vendor/bin/mm-pp-dpps
     socket pps stream 0660 system system
     disabled
 
-service vendor-sensor-sh /vendor/bin/init.qcom.sensors.sh
-    class core
-    user root
-    oneshot
-
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
     user system
     group system
-    disabled
+    task_profiles ServiceCapacityLow
 
 # USB
 on property:ro.product.vendor.model=*
