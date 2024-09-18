@@ -70,6 +70,7 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
+        "750000000",
         "725000000",
         "650000000",
         "560000000",
@@ -87,6 +88,8 @@
       "Name": "GPUMinFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
+        "750000000",
+        "725000000",
         "650000000",
         "560000000",
         "510000000",
@@ -102,6 +105,8 @@
       "Name": "GPUBusMinFreq",
       "Path": "/sys/class/devfreq/soc:qcom,gpubw/min_freq",
       "Values": [
+        "9887",
+        "7759",
         "7104",
         "6445",
         "6152",
@@ -190,6 +195,8 @@
       "Name": "CPUBWMinFreq",
       "Path": "/sys/class/devfreq/soc:qcom,cpubw/min_freq",
       "Values": [
+        "9887",
+        "7759",
         "7104",
         "6445",
         "6152",
@@ -272,7 +279,7 @@
       "PowerHint": "SUSTAINED_PERFORMANCE",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "725000000"
+      "Value": "750000000"
     },
     {
       "PowerHint": "INTERACTION",
@@ -332,7 +339,7 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
       "Duration": 3500,
-      "Value": "7104"
+      "Value": "9887"
     },
     {
       "PowerHint": "LAUNCH",
@@ -428,7 +435,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "650000000"
+      "Value": "725000000"
     },
     {
       "PowerHint": "DOUBLE_TAP_TO_WAKE",
@@ -440,7 +447,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "725000000"
+      "Value": "750000000"
     }
   ]
 }
