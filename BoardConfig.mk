@@ -115,7 +115,7 @@ USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
 
 # Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/battery_charging_enabled
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
