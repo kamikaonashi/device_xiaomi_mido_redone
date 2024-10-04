@@ -1151,7 +1151,7 @@ vendor/lib64/sensors.ssc.so|aeab604388f7e41e2da7dad76bf22bcf47a632db
 # Thermal - from Onclite PKQ1.181021.001/V10.2.5.0.PFLCNXM
 vendor/bin/thermal-engine|562035759ae60b3c5267a01293f1aeaa3f40c44b
 -vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
+vendor/lib64/libthermalfeature.so|fa497ce7bcc61d1460d1a08a68b3630c287efb70
 
 # Time services - from FP3-REL-6.A.030.0-gms-d57debf7-user
 vendor/app/TimeService/TimeService.apk|258cf62182f96b07f04d053b8245f99ed2176f5d

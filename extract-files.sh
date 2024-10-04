@@ -151,6 +151,11 @@ function blob_fixup() {
         *)
             return 1
             ;;
+        # Thermal
+        vendor/lib64/libthermalfeature.so)
+            [ "$2" = "" ] && return 0
+            sed -i "s|system/etc/|vendor/etc/|g" "${2}"
+            ;;
     esac
 
     return 0
