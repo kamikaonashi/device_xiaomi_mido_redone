@@ -71,7 +71,7 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
         "750000000",
-        "725000000",
+        "700000000",
         "650000000",
         "560000000",
         "510000000",
@@ -89,7 +89,7 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
         "750000000",
-        "725000000",
+        "700000000",
         "650000000",
         "560000000",
         "510000000",
@@ -435,7 +435,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "725000000"
+      "Value": "700000000"
     },
     {
       "PowerHint": "DOUBLE_TAP_TO_WAKE",
