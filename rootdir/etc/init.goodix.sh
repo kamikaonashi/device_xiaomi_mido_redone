@@ -27,6 +27,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-if [ ! -f /data/system/users/0/settings_fingerprint.xml ]; then
+if [ ! -f /data/system/users/0/settings_fingerprint_0.xml ]; then
     rm -rf /mnt/vendor/persist/data/gxfp/0_0
 fi
